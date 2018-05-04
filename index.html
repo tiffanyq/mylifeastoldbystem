@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Life As Told By STEM</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/197be801df.js"></script>
+  </head>
+  <body>
+    <div id = "container">
+    
+      <div id = "navigation">
+      <a href = "index.html"><span id = "website-title"> my life as told by STEM</span></a>
+      <a href = "index.html"><span id ="entries" class = "highlight"> entries</span></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "submit.html"><span id = "submit"> submit</span></a>
+       &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "about.html"><span id = "about"> about </span></a>
+
+      </div> 
+      <div id = "content">
+      <div id = "intro-para">ever thought STEM was unrelatable? never again! here's life in science, technology, engineering, and math concepts.</div>
+      <img id = "stem-image"/>
+      <div id = "stem-text">
+              <div id = "stem-title"> <span id = "highlight">self-version control</span></div>
+              <div id = "stem-description">When I meet up with old friends, I find myself scared—what if I’m not the same person that I used to be, and that old person is the version of me that they liked? Do versions overwrite each other? Do they stack? I don’t know, but I know I need to be, in general, happy with the direction that my commits are going. I’m carrying all these versions with me—and if I’m happy with them, that’s all I can ask for.</div>
+              <div id = "stem-info"><i class="fa fa-user-o" aria-hidden="true"></i>
+                  <span id = "contributor">&nbsp;&nbsp;Tiffany Quon</span>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span style = "display: none"><iframe id="fb-like" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTiffany-Quon-865743500248316%2F&width=50px&layout=button_count&action=recommend&size=small&show_faces=false&share=true&height=46&appId" width="50px" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></span>
+                    &nbsp;&nbsp;
+                  <span id = "like-button" onclick = "increaseLikes()"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;
+                  <span id = "likes">1</span>
+
+                  </span>
+             </div>
+      </div>
+      <div id = "forward-back"><span id = "back-button" onclick = "switchConcept(currentConcept1, 'back')">< Back</span>  &nbsp;&nbsp;|&nbsp;&nbsp;  <span id = "forward-button" onclick = "switchConcept(currentConcept1, 'forward')">Next ></span></div>
+      </div>
+    </div>
+
+  </body>
+</html>

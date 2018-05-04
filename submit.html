@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Life As Told By STEM</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/197be801df.js"></script>
+  </head>
+  <body>
+    <div id = "container">
+    
+      <div id = "navigation">
+      <a href = "index.html"><span id = "website-title"> my life as told by STEM</span></a>
+      <a href = "index.html"><span id ="entries"> entries</span></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "submit.html"><span id = "submit" class = "highlight"> submit</span></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "about.html"><span id = "about"> about </span></a>
+      </div>  
+          <div id = "intro-para">ever thought STEM was unrelatable? never again! here's life in science, technology, engineering, and math concepts.</div>
+      <img id = "stem-image" src = "images/ivt.jpg"/>
+
+      <div id = "stem-text">
+         <div class = "title"><span class ="highlight">submit</span></div>
+        <div id = "description">
+        Thank you for your interest! <span class = "highlight">This form is currently lacking a backend, so your response will not be recorded!</span> I'm trying to work on that right now. If you're interested in this project, I'd love if you contacted me by email, Instagram, GitHub, or through other links I have up on my <a href = "http://www.tiffanyquon.com/">personal website</a>. Thanks again for your interest :)
+        </div>
+              <div id = "form">
+          <div id="input-fields">
+        Name<br/> <input type = "text" name = "username" id = "username"/><br/>
+        Email address<br/> <input type = "text" name ="email-address" id="email-input" /><br/>
+        Confirm email address<br/>  <input type = "text" name ="email-address" id="email-confirm"/><br/>
+        Submission title<br/>  <input type = "text" name = "idea-title" id ="idea-title" /><br/>
+        Description of idea<br/>  <textarea id ="submission-description"></textarea>
+        </div>  
+        <div id = "validation-message"></div>
+        <button id = "submit-idea" onclick = "validateSubmission(this)">Submit</button>
+      </div>
+      </div>
+
+    </div> <!-- end of container -->
+
+  </body>
+</html>

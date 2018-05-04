@@ -1,0 +1,182 @@
+
+#container {
+	padding: 50px;
+	max-width: 1000px;
+	min-width: 820px;
+	margin: auto;
+	height: inherit;
+	position: relative;
+}
+
+#description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+#navigation {
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 25px;
+	text-align: right;
+
+	}
+
+#navigation a {
+	color: #282828;
+	font-size: 16px;
+}
+
+#website-title {
+	position: absolute;
+	left: 50px;
+	top: 35px;
+	font-size: 36px;
+	color: #282828;
+}
+
+#intro-para {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+	max-width: 400px;
+	font-size: 14px;
+}
+#container::before, #container::after {
+  content: "";
+  display: table;
+}
+#container::after {
+  clear: both;
+}
+#container {
+  zoom: 1;
+}
+
+#stem-text {
+	margin-left: 450px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#stem-image {
+	float: left;
+	box-shadow: 5px 5px 30px #888888;
+	max-width: 400px;
+	display: block;
+}
+
+#stem-title, .title {
+	font-size: 42px;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+#description a {
+	color: black;
+}
+
+#stem-description, #stem-info, #description {
+	margin-top: 25px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: #282828;
+}
+#stem-description {
+	margin-bottom: 50px;
+}
+
+#highlight, .highlight {
+	background: #fffaa6;
+	transition: background 0.15s ease-in;
+
+}
+
+#highlight:hover, .highlight:hover {
+	background: #fcf36a;
+}
+
+#forward-back {
+	font-family: 'Roboto Slab', serif;
+	text-align: right;
+	max-width: 1000px;
+	position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 24px;
+}
+
+#back-button, #forward-button {
+	transition: background 0.5s ease-out;
+}
+	
+
+#back-button:hover, #forward-button:hover {
+	background:#fffaa6;
+	cursor: pointer;
+}
+
+
+.transition {
+	background: white;
+	opacity: 0.5;
+	z-index: 1000 !important;
+
+}
+
+.transition-out {
+	transition: opacity 0.4s ease-in;
+	background: none;
+}
+
+#form {
+	margin-top: 25px;
+}
+
+#input-fields {
+	font-size: 12px;
+}
+#input-fields input {
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+
+#submit-idea {
+	background-color: #282828;
+	color: #ffffff;
+	margin-top: 15px;
+	border-radius: 0;
+	padding: 10px 5px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+#submission-description {
+	width: 100%;
+	resize: vertical;
+	height: 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+
+}
+
+#validation-message {
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center
+	color: #ff0000;
+}
+
+#like-button {
+	transition: background 0.5s ease-out;
+}
+
+#like-button:hover {
+	background: #ffb2b2;
+	cursor: pointer;
+}
+
+#fb-like {
+	height: 20px;
+	margin-bottom: -3px;
+}

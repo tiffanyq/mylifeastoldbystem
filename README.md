@@ -1,2 +1,2 @@
-# mylifeastoldbystem
-this is my life as told by STEM
+# nwhacks2018
+mylifeastoldbystem
